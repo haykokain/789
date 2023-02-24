@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Times, Times New Roman, serif;
+    list-style: none;
+    font-style: none;
+}
+
+body {
+    
+     background: url(https://phonoteka.org/uploads/posts/2022-01/1643191557_1-phonoteka-org-p-krasivii-temno-sinii-fon-1.jpg); 
+   /*background: url(https://phonoteka.org/uploads/posts/2022-01/thumbs/1642972175_50-phonoteka-org-p-temnii-sinii-fon-54.jpg);*/
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background: url(https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    /*background: url(https://e1.pxfuel.com/desktop-wallpaper/204/981/desktop-wallpaper-dark-blue-texture-by-carlbert-1280x960-for-your-mobile-tablet.jpg);*/
+    background-color: #001233;  
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0px 1px 2px #0466c8,
+                0px 2px 4px #0466c8,
+                0px 4px 6px #0466c8,
+                0px 8px 8px #0466c8;
+}
+
+footer {
+    background: url(https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-color: #001233;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding-top: -4%;
+    padding-bottom: 2%;
+    align-items: center;
+    box-shadow: inset 10px -10px 20px 10px #0466c8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #7d8597;
+    transition: all .5s ease;
+}   
+
+footer a:first-child {
+    border-left: 1px solid #7d8597;
+}
+
+footer a:hover {
+    color: #0466c8;
+    font-size: 24px ;
+    box-shadow: 1px 2px 4px #ffffff,
+                2px 4px 8px #ffffff,
+                4px 8px 16px #ffffff;
+    background-color: #04305d8f;
+}
+
+.Link {
+    color: rgb(235, 233, 233);
+    font-size: 1.4em;
+    transition: 0.6s;
+    font-weight: bold;
+}
+
+.Link:hover {
+    color: #0077B6;
+    font-size: 1.7em;
+}
+
+
+#logo {
+    width: 50px;
+    height: 50px;
+    transition: 0.4s;
+}
+
+#logo:hover {
+    width: 55px;
+    height: 55px;
+}
+
+.footer-list-item {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#footer-list {
+    text-align: center;
+    width: 80%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#footer-text {
+    color: white;
+    width: 80%;
+    font-size: 1.3em;
+    margin-left: 15%;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px
+}
+
+.Link {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+nav {
+    margin-top: 11px;
+}
+
+#text7 {
+    text-align: center;
+    color: white;
+}
+
+
+
+#photo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#zidan {
+    margin-left: 275px;
+    margin-top: 20px;
+}
+
+#neymar {
+    margin-left: 20px;
+    margin-top: 300px;
+}
+
+#messi {
+    margin-right: 850px;
+    margin-top: 300px;
+}
+
+#text777 {
+    color: aliceblue;
+    margin-left: 500px;
+}
+
+.facebook:hover {
+    color: #4267B2;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.in:hover {
+    color:rgb(223, 17, 17)
+}
+
+.g:hover {
+    color: #e8850c;
+}
+
+.skype:hover {
+    color: #18a4d8;
+}
